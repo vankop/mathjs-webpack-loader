@@ -1,0 +1,9 @@
+node_modules
+example/bundle.js
+
+#idea
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,36 @@
+{
+  "name": "mathjs-webpack-loader",
+  "version": "0.1.0",
+  "description": "loader for mathjs parsed expression",
+  "main": "dist",
+  "files": [
+	"dist",
+	"*.md"
+  ],
+  "peerDependencies": {
+    "mathjs": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "mathjs": "^5.0.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js --out-file dist/index.js",
+    "build-example": "webpack example/index.js --config example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vankop/mathjs-webpack-loader.git"
+  },
+  "author": "Ivan Kopeykin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vankop/mathjs-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/vankop/mathjs-webpack-loader#readme"
+}
