@@ -21,6 +21,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src/index.js --out-file dist/index.js",
+	"prepublishOnly": "npm run build",
     "build-example": "webpack example/index.js --config example/webpack.config.js"
   },
   "repository": {
